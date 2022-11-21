@@ -16,5 +16,11 @@ namespace TeamApp.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult GetUser(int id)
+        {
+            return View("1");
+        }
     }
 }
