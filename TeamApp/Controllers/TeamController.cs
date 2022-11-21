@@ -14,7 +14,7 @@ namespace TeamApp.Controllers
         // GET: TeamController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            return Ok("1");
         }
 
         // GET: TeamController/Create
